@@ -1,0 +1,17 @@
+Phase0: #0-1. 리액트 프로젝트 생성, Tailwind 설치
+
+# Vite 빌드툴을 활용하여 프로젝트 생성
+npm create vite@latest
+- React
+- Javascript 사용
+
+# Tailwind 설치(https://tailwindcss.com/docs/guides/vite)
+
+	# tailwind, postcss, autoprefixer 설치
+	npm install -D tailwindcss postcss autoprefixer
+
+	# tailwind.config.js 파일 생성 명령어
+	npx tailwindcss init -p
+
+	# 나머지는 링크 참조
+
