@@ -7,7 +7,7 @@ function App() {
   return (
     <>
     {/* // About children prop - 
-        // 합성 vs 상속(https://ko.legacy.reactjs.org/docs/composition-vs-inheritance.html) */}
+        // 합성 vs 상속(https://ko.legacy.`reactjs.org/docs/composition-vs-inheritance.html) */}
       <DefaultLayout>
         {/* DefaultLayout 태그의 자식(children)요소로 Counter 컴포넌트가 있음 */}
         
@@ -21,8 +21,8 @@ function App() {
         <section className='max-w-xl m-4 mx-auto'>
           {/* TodoHeader - 할일 추가, 필터링 UI */}
           <TodoHeader />
+          {/* TodoBody - 할일 목록 UI */}
           <TodoBody />
-          {/* TodoBody - 할일 목록 데이터 */}
         </section>
 
       </DefaultLayout>    

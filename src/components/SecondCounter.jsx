@@ -1,4 +1,5 @@
-// 자동완성 rafce
+// rafce
+import React from 'react'
 
 const SecondCounter = () => {
   return (
